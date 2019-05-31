@@ -247,4 +247,58 @@ a:active {
     overflow: auto;
 }
 
+@media only screen and (max-width:  980px) {
+.content {
+    width: 700px;
+    
+}
 
+.logo {
+    width: 700px;
+}
+    
+}
+
+@media only screen and (max-width: 768px) {
+.content {
+    width: 560px;
+}
+
+.logo {
+    width: 560px;
+}
+}
+
+@media only screen and (max-width: 640px) {
+.logo {
+    float: none;
+    width: 430px;
+    margin: 0;
+} 
+.content {
+    width: 430px;
+    margin: 5vw;
+    font-size: 1.7vw;
+
+}
+
+.header {
+    background-color: #4aaaa5;
+}
+
+nav {
+    float: none;
+    margin-top: 0;
+    text-align: center;
+}
+h1 {
+    float: none !important;
+    position: static !important;
+}
+
+.profile_pic {
+    float: none;
+    display: block;
+    margin: 0 auto; 
+}
+}
