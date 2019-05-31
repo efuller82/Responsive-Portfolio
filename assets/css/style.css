@@ -132,13 +132,13 @@ a:active {
 }
 
  input {
-     width: 95%;
+     width: 75%;
      padding: 5px 25px 5px 25px;
      margin: 10px 0px 10px 0px;
  }
 
  textarea {
-     width: 100%;
+     width: 75%;
  }
  
  .form_boxes {
@@ -277,7 +277,6 @@ a:active {
 } 
 .content {
     width: 430px;
-    margin: 5vw;
     font-size: 1.7vw;
 
 }
